@@ -48,12 +48,12 @@ export default function Navigation() {
           <div className="flex items-center space-x-6">
             <div className="flex items-center space-x-2">
               <Phone className="w-4 h-4" />
-              <span>+1 (555) 123-4567</span>
+              <span>+1 (555) 123######</span>
             </div>
 
             <div className="flex items-center space-x-2">
               <Mail className="w-4 h-4" />
-              <span>reservations@bellacafe.com</span>
+              <span>reservations@####.com</span>
             </div>
           </div>
           <div className="text-accent">Open Tue-Sun | Closed Mondays</div>
