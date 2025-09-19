@@ -78,7 +78,7 @@ export default function Navigation() {
                 className="text-2xl md:text-3xl font-serif font-bold text-primary"
                 whileHover={{ scale: 1.05 }}
               >
-                Bella Café
+                Saint Café
               </motion.div>
             </Link>
 
