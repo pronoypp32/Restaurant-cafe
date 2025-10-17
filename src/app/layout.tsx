@@ -13,8 +13,18 @@ const inter = Inter({
 
 const playfair = Playfair_Display({
   variable: "--font-playfair",
-  subsets: ["latin"],
+  subsets: ["latin"], 
 });
+<head>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+  />
+  <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="true" />
+</head>
+
+
 
 export const metadata: Metadata = {
   title: "Bella Café - Fine Dining Experience",

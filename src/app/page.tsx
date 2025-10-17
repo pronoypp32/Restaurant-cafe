@@ -26,7 +26,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 from-primary/90 via-primary/70 to-accent/90 z-10" />
           <Image
-            src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
+            src="/images/restaurant-hero.jpg"
             alt="Restaurant interior"
             fill
             className="object-cover"
@@ -47,10 +47,7 @@ export default function Home() {
               Where Culinary
               <span className="block text-accent text-white">Dreams Come True</span>
             </h1>
-            <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 text-white leading-relaxed">
-              Experience the perfect harmony of flavors, ambiance, and exceptional service 
-              in the heart of the city. Every dish tells a story of passion and culinary excellence.
-            </p>
+           
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/reservation">
                 <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
@@ -59,7 +56,7 @@ export default function Home() {
                 </Button>
               </Link>
               <Link href="/menu">
-                <Button variant="outline" size="lg" className="border-white text-pink-500 hover:bg-white hover:text-primary">
+                <Button variant="outline" size="lg" className="border-white text-green-400 hover:bg-white hover:text-yellow-400">
                   View Our Menu
                 </Button>
               </Link>
