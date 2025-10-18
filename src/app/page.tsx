@@ -20,24 +20,24 @@ const stats = [
 export default function Home() {
   return (
     <PageTransition>
-      {/* Hero Section */}
-      <section className="relative min-h-screen  flex items-center justify-center overflow-hidden">
-        {/* Background */}
-        <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 from-primary/90 via-primary/70 to-accent/90 z-10" />
-          <Image
-            src="/images/restaurant-hero.jpg"
-            alt="Restaurant interior"
-            fill
-            className="object-cover"
-            priority
-            placeholder="blur"
-            blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
-          />
-        </div>
+  {/* Hero Section */}
+<section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  {/* Background Video */}
+  <div className="absolute inset-0 z-20">
+    <video
+      src="/videos/restaurant-hero2.mp4" // 👉 আপনার ভিডিও ফাইল public/videos ফোল্ডারে রাখুন
+      autoPlay
+      loop
+      muted
+      playsInline
+      className="absolute inset-0 w-full h-full object-cover"
+    ></video>
+
+   
+  </div>
 
         {/* Content */}
-        <div className="relative z-20 container mx-auto px-4 text-center text-yellow-400">
+        <div className="relative z-20 container mx-auto px-4 text-center text-yellow-300">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -45,7 +45,7 @@ export default function Home() {
           >
             <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
               Where Culinary
-              <span className="block text-accent text-white">Dreams Come True</span>
+              <span className="block text-accent text-rose-400">Dreams Come True</span>
             </h1>
            
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

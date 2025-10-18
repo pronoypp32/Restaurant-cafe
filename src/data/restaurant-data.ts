@@ -14,31 +14,31 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: '2',
-    name: 'Seared Scallops',
-    description: 'Pan-seared scallops with cauliflower purée and pancetta crisps',
+    name: 'Coffee',
+    description: 'Where every cup tells a story — roasted to perfection, served with love.',
     price: 22,
     category: 'starters',
-    image: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+    image: '/images/coffee.jpg',
     isPopular: true
   },
   {
     id: '3',
-    name: 'Burrata Caprese',
-    description: 'Fresh burrata with heirloom tomatoes, basil oil, and aged balsamic',
+    name: 'Dry-Aged Ribeye',
+    description: '12oz dry-aged ribeye with roasted bone marrow and red wine jus',
     price: 18,
     category: 'starters',
-    image: 'https://images.unsplash.com/photo-1505253213348-cd54c92b37ed?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+    image: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
     isVegetarian: true
   },
   
   // Main Courses
   {
     id: '4',
-    name: 'Dry-Aged Ribeye',
-    description: '12oz dry-aged ribeye with roasted bone marrow and red wine jus',
+    name: 'Pepperoni Pizza',
+    description: 'A perfect blend of tangy sauce, gooey cheese, and bold pepperoni flavor.',
     price: 68,
     category: 'mains',
-    image: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+    image: '/images/pizza.jpg',
     isPopular: true
   },
   {
@@ -47,7 +47,7 @@ export const menuItems: MenuItem[] = [
     description: 'Creamy arborio rice with fresh lobster, saffron, and microgreens',
     price: 45,
     category: 'mains',
-    image: 'https://images.unsplash.com/photo-1633945274309-2c8c9038e61e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+    image: '/images/lobster.jpg',
     isPopular: true
   },
   {
@@ -64,7 +64,7 @@ export const menuItems: MenuItem[] = [
     description: 'Handmade gnocchi with wild mushrooms, truffle cream, and herbs',
     price: 32,
     category: 'mains',
-    image: 'https://images.unsplash.com/photo-1621996346565-e3dbc353d2e5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+    image: '/images/Wild Mushroom Gnocchi.jpg',
     isVegetarian: true
   },
   
@@ -75,7 +75,7 @@ export const menuItems: MenuItem[] = [
     description: 'Warm dark chocolate soufflé with vanilla bean ice cream',
     price: 14,
     category: 'desserts',
-    image: 'https://images.unsplash.com/photo-1541599468348-e96984315929?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+    image: '/images/Chocolate Soufflé.jpg',
     isPopular: true,
     isVegetarian: true
   },
